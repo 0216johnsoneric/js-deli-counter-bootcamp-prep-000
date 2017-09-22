@@ -24,7 +24,7 @@ function currentLine(katzDeliLine){
     for(var i =0; i < katzDeliLine.length; i++) {
        names.push(`${i+1}. ${katzDeliLine [i]}` )
     }
-      names.join
+    
     // names === ["1. Bill", "2. Jane", "3. Ann"]
     // "
     return `The line is currently: ${names.join(', ')}`
